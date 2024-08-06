@@ -19,22 +19,22 @@
                 font-family: 'Courier New', Courier, monospace;
             }
 
-        .navbar {
+            .navbar {
                 background-color: #333; /* Dark background */
                 padding: 10px 20px; /* Padding around the navbar */
             }
 
-        .nav-links {
+            .nav-links {
                 list-style-type: none; /* Remove bullet points */
                 display: flex; /* Align items horizontally */
                 justify-content: center; /* Center items horizontally */
             }
 
-        .nav-links li {
+            .nav-links li {
                 margin: 0 15px; /* Space between links */
             }
 
-        .nav-links a {
+            .nav-links a {
                 color: white; /* Text color */
                 text-decoration: none; /* Remove underline */
                 font-size: 16px; /* Font size */
@@ -42,15 +42,15 @@
                 display: block; /* Make the link block-level */
             }
 
-        .nav-links a:hover {
+            .nav-links a:hover {
                 background-color: #555; /* Background color on hover */
                 border-radius: 5px; /* Rounded corners on hover */
             }
                       
         </style>
     </head>
-    <nav>
-        <ul>
+    <nav class="navbar">
+        <ul class="nav-links">
             <li><a href="index.html">About Me</a></li>
             <li><a href="projects.html">Projects</a></li>
         </ul>
