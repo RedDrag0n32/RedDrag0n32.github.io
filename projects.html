@@ -62,9 +62,27 @@
             div{
                 text-align: center;
             }
-            .paragraph-container p + p{
-                margin-top: 20px;
-            }
+
+        .project-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            margin-bottom: 40px; 
+        }
+
+        .project-container img {
+            max-width: 200px; 
+            height: auto; /
+        }
+
+        .project-description {
+            max-width: 600px; 
+        }
+
+        .project-description p {
+            margin: 0;
+        }
+
                       
         </style>
     </head>
@@ -76,41 +94,45 @@
 </nav>
 <body>
     <h2>Projects</h2>
-    <div style="display: flex; align-items: flex-start; gap: 10px;">
-        <h3>Fiction Battles</h3>
-        <div class = "fiction-container">
+        <div class = "project-container">
+            <h3>Fiction Battles</h3>
             <img src = "images/Fiction-Battles.png">
-            <P>
-                Fiction Battles is easily my pride and joy. This was my final project for my undergrad. The idea of this project was to create a social space for people
-                to talk about their favorite characters in fiction. We designed the website using MEAN Stack because it was most well known to us. It has a lot of features.
-                You can make your own account on the website, make a list of ten of your favorite characters to be stored, you could view other user's lists, and every day 
-                we had two random character's selected for people to vote on and then they could comment on the voting going on. I was a backend developer mainly in charge 
-                of information handling. Anytime a user wanted to store or retrieve information, I developed the algorithms and functions to ensure that their data was 
-                being stored correctly and that it was being properly retrieved. This project was my most ambitious and to see everything come together in the end was 
-                awesome.
-            </P>
+            <div class="project-description">
+                <P>
+                    Fiction Battles is easily my pride and joy. This was my final project for my undergrad. The idea of this project was to create a social space for people
+                    to talk about their favorite characters in fiction. We designed the website using MEAN Stack because it was most well known to us. It has a lot of features.
+                    You can make your own account on the website, make a list of ten of your favorite characters to be stored, you could view other user's lists, and every day 
+                    we had two random character's selected for people to vote on and then they could comment on the voting going on. I was a backend developer mainly in charge 
+                    of information handling. Anytime a user wanted to store or retrieve information, I developed the algorithms and functions to ensure that their data was 
+                    being stored correctly and that it was being properly retrieved. This project was my most ambitious and to see everything come together in the end was 
+                    awesome.
+                </P>
+            </div>
         </div>
-        <h3>Wordle(Ty's Version)</h3>
-        <div class="wordle-container">
+        <div class="project-container">
+            <h3>Wordle(Ty's Version)</h3>
             <img src = "images/Wordle.png">
-            <p>
-                For the final project of my C#/.NET class, I chose to make my own version of Wordle. The main reason why I chose to make a version of Wordle was because
-                right when Wordle came out, I had a lot of my friends ask me if I could make my own version of it and around the same time my teacher said we could make 
-                anything we wanted for our final project, so I thought that this was the perfect chance to try it out. I made Wordle entirely out of C# and Visual Studio 
-                and I added my own touches. I made it so you could play again without having to wait twenty-four hours and I added the ability to see the amount of right 
-                and wrong guesses. The project was a joy to work on and I was really happy with the end result. 
-            </p>
+            <div class="project-description">
+                <p>
+                    For the final project of my C#/.NET class, I chose to make my own version of Wordle. The main reason why I chose to make a version of Wordle was because
+                    right when Wordle came out, I had a lot of my friends ask me if I could make my own version of it and around the same time my teacher said we could make 
+                    anything we wanted for our final project, so I thought that this was the perfect chance to try it out. I made Wordle entirely out of C# and Visual Studio 
+                    and I added my own touches. I made it so you could play again without having to wait twenty-four hours and I added the ability to see the amount of right 
+                    and wrong guesses. The project was a joy to work on and I was really happy with the end result. 
+                </p>
+            </div>
         </div>
-        <h3>Jeopardy(Kinda)</h3>
-        <div class="jeopardy-container">
+        <div class="project-container">
+            <h3>Jeopardy(Kinda)</h3>
             <img src = "images/Jeopardy.png">
-            <p>
-                Jeopardy was a small little passion project of mine. I wanted to play Jeopardy with my friends after watching a lot of Youtube videos of other's doing 
-                something similar. Instead of buying it I made my own version of it. It was also built completely in C# and Visual Studio. the Version it's in right now
-                is pretty basic, but I want to plan to add more rounds and more Jeopardy features like a Daily Double. 
-            </p>
+            <div class="project-description">
+                <p>
+                    Jeopardy was a small little passion project of mine. I wanted to play Jeopardy with my friends after watching a lot of Youtube videos of other's doing 
+                    something similar. Instead of buying it I made my own version of it. It was also built completely in C# and Visual Studio. the Version it's in right now
+                    is pretty basic, but I want to plan to add more rounds and more Jeopardy features like a Daily Double. 
+                </p>
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
